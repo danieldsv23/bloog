@@ -1,0 +1,125 @@
+body {
+    background-color: #0F1923;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+/*colocando conteudo no centro*/
+.container {
+    width: 120vw;
+    height: auto;
+    justify-content: center;
+    box-shadow: 10px 20px 40px rgb(0, 0, 2);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.item {
+    margin-top: 10px;
+}
+
+.item img {
+    border-radius: 20px;
+    width: 120vh;
+}
+
+.espaso {
+    margin-block-end: 10px;
+}
+
+
+
+
+/* mais regras CSS reset */
+
+/* regra para o box-sizing */
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* regra para o clear float */
+
+
+/*nav*/
+
+.bg-light {
+    margin-top: 10px;
+    background-color: #0F1923 !important;
+    box-shadow: 10px 10px 10px rgb(0, 0, 1);
+    border-radius: 20px;
+
+}
+
+
+
+.bg-light a {
+    color: #fff !important;
+
+}
+
+.navbar-brand img {
+    width: 50px;
+
+}
+
+.dropdown-menu {
+    background-color: #0F1923 !important;
+}
+
+.navbar-nav a:hover {
+    background-color: #E81538;
+    border-radius: 10px;
+}
+
+
+
+/*nav-fim*/
+h1 {
+    margin: 35px;
+}
+
+h4 {
+    margin: 30px 10px;
+}
+
+.img-conteudo {
+    width: 500px;
+    margin: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.blaze {
+    display: inline-flex;
+    margin: 10px;
+}
+
+.jogos {
+    display: flex;
+    position: left;
+}
+
+.saque {
+    display: flex;
+    position: left;
+    margin-bottom: 5px;
+}
+
+.jogos p {
+    margin-top: 5px;
+    margin-bottom: 100px;
+
+}
+
+.nav {
+    overflow: 10000px 1000px !important;
+}
